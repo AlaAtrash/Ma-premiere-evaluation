@@ -16,16 +16,9 @@ img {
     height: 70%;
 }
 
-.nav {
+.navDesign {
     background-color: rgb(233, 150, 122);
-    border: 1rem solid rgb(100, 81, 81);
-}
-
-@media screen and (max-width:768px) {
-    .nav {
-        background-color: rgb(146, 83, 95);
-        border: solid rgb(100, 81, 81);
-    }
+    border: 10px solid rgb(100, 81, 81);
 }
 
 .button {
@@ -56,12 +49,12 @@ footer {
 @media screen and (max-width:768px) {
     main {
         position: relative;
-        top: 247px;
+        top: 239px;
     }
 
     footer {
         position: relative;
-        bottom: -247px;
+        bottom: -239px;
     }
 }
 
