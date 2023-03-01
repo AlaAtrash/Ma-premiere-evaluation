@@ -1,9 +1,7 @@
-console.log ("test");
-
-let btn = document.getElementById ('btnAddBeneficiaire')
+const action = document.getElementById ('btnAddBeneficiaire')
 
 function evenement () {
     alert ('Nouvelle inscription')
 }
 
-btn.addEventListener('click', evenement);
+action.addEventListener('click', evenement);
